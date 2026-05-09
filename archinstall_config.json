@@ -10,7 +10,7 @@
     "desktop-environment": "kde",
     "hostname": "archrocket",
     "kernels": [
-        "linux"
+        "linux-zen"
     ],
     "profile": "Desktop",
     "services": [
@@ -21,8 +21,14 @@
     "audio_config": {
         "audio": "pipewire"
     },
-    "bootloader": "grub-install",
+    "bootloader": "systemd-boot",
+    "swap": true,
+    "zram": true,
+    "disk_config": {
+        "filesystem": "ext4"
+    },
     "network_config": {
-        "type": "nm"
+        "type": "nm",
+        "backend": "iwd"
     }
 }

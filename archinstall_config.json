@@ -1,0 +1,28 @@
+{
+    "additional-packages": [
+        "micro", "git", "rustup", "base-devel", "curl", "wget", "sudo", "fish",
+        "ttf-freebanglafont", "ttf-jetbrains-mono-nerd",
+        "eza", "bat", "ripgrep", "fd", "zoxide", "dust",
+        "qbittorrent", "aria2", "android-tools", "rclone",
+        "kdeconnect", "fastfetch", "haruna", "mpv", "vlc", "spotify-launcher",
+        "profile-sync-daemon"
+    ],
+    "desktop-environment": "kde",
+    "hostname": "archrocket",
+    "kernels": [
+        "linux"
+    ],
+    "profile": "Desktop",
+    "services": [
+        "systemd-oomd",
+        "psd"
+    ],
+    "timezone": "UTC",
+    "audio_config": {
+        "audio": "pipewire"
+    },
+    "bootloader": "grub-install",
+    "network_config": {
+        "type": "nm"
+    }
+}
